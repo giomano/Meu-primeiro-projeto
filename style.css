@@ -1,0 +1,156 @@
+*{margin: 0;}
+*{padding: 0}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lexend+Deca:wght@100;200&display=swap');
+
+
+body{
+    overflow: hidden;
+    background: hsl(233, 47%, 7%);
+}   
+
+.container{
+    display: flex;
+    width: 945px;
+    height: 380px;
+    margin-left: 220px;
+    margin-top: 100px;
+    align-items: center;
+    background-color: hsla(244, 38%, 16%, 1);
+    border-radius: 11px 11px 11px 11px;
+
+}
+
+#img-div{
+    position: relative;
+    width: 472px;
+    height: 380px;
+    margin-left: 100px;
+}
+
+img{
+    width: 472px;
+    height: 380px;
+    border-radius: 0px 11px 11px 0px;
+}
+
+h1{
+    position: absolute;
+    width: 318px;
+    height: 86px;
+    padding-bottom: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    padding-left: 95px;
+    color: #FFFFFF;
+
+}
+
+b{
+    color: #AA5CDB;
+}
+
+#text1{
+    position: absolute;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    padding-left: 95px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text1{
+    width: 292px;
+    height: 52px;
+}
+
+.grid{
+    display: flex;
+    margin-top: 301px;
+    margin-bottom: 50px;
+}
+
+#title2{
+    position: absolute;
+    padding-left: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    color: #FFFFFF;
+    
+}
+
+#title3{
+    position: absolute;
+    padding-left: 230px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    color: #FFFFFF;
+    
+}
+
+#title4{
+    position: absolute;
+    margin-left: 340px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+#companies{
+    position: relative;
+    padding-left: 100px;
+    margin-top: 25px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#templates{
+    position: relative;
+    padding-left: 50px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#queries{
+    position: relative;
+    padding-left: 35px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+}
